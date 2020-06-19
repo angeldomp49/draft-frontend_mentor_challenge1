@@ -1,0 +1,47 @@
+.container-fluid{
+    background-image: url('../images/bg-desktop.svg');
+    background-color: rgb(1, 20, 36);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.contenedor-secundario{
+    padding-top: 20%;
+    padding-bottom: 25%;
+}
+.elemento-izquierda{
+    background-color: rgb(33, 39, 97);
+    border-radius: 8px 80px 8px 8px;
+}
+.elemento-derecha{
+    background-color: rgb(33, 39, 97);
+    color: white;
+    border-radius: 8px;
+}
+.bg-azul-para-boton{
+    background-color: rgb(1, 20, 36) ;
+}
+.bg-gradient-orange-rose{
+    background: linear-gradient(0.25turn,rgb(255, 200, 112),rgb(247, 75, 155)) !important;
+}
+.tooltip .tooltip-inner {
+    background-color: white !important;
+    color: black;
+    
+}
+.tooltip{
+    left: 10% !important;
+    font-size: 1.5rem !important;
+    padding: 2rem;
+}
+.tooltip:hover{
+    opacity: 1.0;
+    background-color: white;
+}
+.arrow{
+    left: 80% !important;
+    width: 2rem !important;
+    font-size: 2rem;
+}
+.arrow svg{
+    width: 2rem !important;
+}
