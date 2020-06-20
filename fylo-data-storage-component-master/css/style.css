@@ -1,0 +1,62 @@
+.container-fluid{
+    height: 100vh;
+    background-image: url('../images/bg-desktop.svg');
+    background-color: rgb(1, 20, 36);
+    background-position: 0 50vh;
+    background-repeat: no-repeat;
+}
+@media(max-width: 767px){
+    .container-fluid{
+        width: 100vw;
+        height: 100vh;
+        background-image: url('../images/bg-mobile.svg');
+        background-position: center;
+        background-size: cover;
+    }
+}
+.contenedor-secundario{
+    padding-top: 8vh;
+}
+.elemento-izquierda{
+    background-color: rgb(33, 39, 97);
+    border-radius: 8px 80px 8px 8px;
+}
+.elemento-derecha{
+    background-color: rgb(33, 39, 97);
+    color: white;
+    border-radius: 8px;
+}
+.bg-azul-para-boton{
+    background-color: rgb(1, 20, 36) ;
+}
+@media(max-width: 767px){
+    .btn{
+        width: 10vw !important;
+        height: 10vw !important;
+    }
+}
+.bg-gradient-orange-rose{
+    background: linear-gradient(0.25turn,rgb(255, 200, 112),rgb(247, 75, 155)) !important;
+}
+.tooltip .tooltip-inner {
+    background-color: white !important;
+    color: black;
+    
+}
+.tooltip{
+    left: 10% !important;
+    font-size: 1.5rem !important;
+    padding: 2rem;
+}
+.tooltip:hover{
+    opacity: 1.0;
+    background-color: white;
+}
+.arrow{
+    left: 80% !important;
+    width: 2rem !important;
+    font-size: 2rem;
+}
+.arrow svg{
+    width: 2rem !important;
+}
